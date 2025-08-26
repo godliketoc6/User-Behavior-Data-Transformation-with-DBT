@@ -1,0 +1,33 @@
+# -----------------------------
+# dbt build artifacts
+# -----------------------------
+target/
+dbt_packages/
+dbt_internal_packages/
+logs/
+
+# -----------------------------
+# Environment & credentials
+# -----------------------------
+.env
+.venv/
+*.env
+*.json  # service account keys (if any) - remove if you keep dummy configs
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+
+# -----------------------------
+# Editors / IDE
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# OS junk
+# -----------------------------
+.DS_Store
+Thumbs.db

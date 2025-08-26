@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_user
+    description: "Raw dimension table for users"
+    columns:
+      - name: user_id_db
+        description: "Unique ID for each user"
+        tests:
+          - not_null
+          - unique
