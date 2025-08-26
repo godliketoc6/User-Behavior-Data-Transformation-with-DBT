@@ -48,7 +48,7 @@ dbt run --select staging
 dbt run
 
 4. Visualize in Looker
-
+![](img/glamira.png)
 
 📊 Data Volumes
 
