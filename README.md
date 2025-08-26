@@ -15,6 +15,7 @@ It transforms raw data into analytics-ready models for reporting and insights.
 
 ## 📂 Project Structure
 
+```bash
 .
 ├── analyses/             # ad-hoc queries
 ├── macros/               # reusable dbt macros
@@ -29,6 +30,7 @@ It transforms raw data into analytics-ready models for reporting and insights.
 ├── target/               # compiled SQL (ignored in git)
 ├── dbt_project.yml       # dbt project config
 └── README.md             # project documentation
+```
 
 🚀 Getting Started
 1. Install Dependencies
