@@ -1,4 +1,4 @@
-# 🪙 Unigap DBT Project
+# 🪙 User Behavior Data Transformation with DBT
 
 ## 📌 Overview
 This project builds a modern data pipeline for **Glamira e-commerce data (44M records)** using DBT, **Google Cloud Storage (GCS)**, and **Looker**.  
